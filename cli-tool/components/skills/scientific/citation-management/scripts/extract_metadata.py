@@ -70,20 +70,21 @@ class MetadataExtractor:
     def _parse_url(self, url: str) -> Tuple[str, str]:
         """Parse URL to extract identifier type and value."""
         parsed = urlparse(url)
+        host = (parsed.hostname or '').lower()
         
         # DOI URLs
-        if 'doi.org' in parsed.netloc:
+        if host == 'doi.org':
             doi = parsed.path.lstrip('/')
             return ('doi', doi)
         
         # PubMed URLs
-        if 'pubmed.ncbi.nlm.nih.gov' in parsed.netloc or 'ncbi.nlm.nih.gov/pubmed' in url:
+        if host == 'pubmed.ncbi.nlm.nih.gov' or (host == 'ncbi.nlm.nih.gov' and parsed.path.startswith('/pubmed')):
             pmid = re.search(r'/(\d+)', parsed.path)
             if pmid:
                 return ('pmid', pmid.group(1))
         
         # arXiv URLs
-        if 'arxiv.org' in parsed.netloc:
+        if host == 'arxiv.org' or host.endswith('.arxiv.org'):
             arxiv_id = re.search(r'/abs/(\d{4}\.\d{4,5})', parsed.path)
             if arxiv_id:
                 return ('arxiv', arxiv_id.group(1))
