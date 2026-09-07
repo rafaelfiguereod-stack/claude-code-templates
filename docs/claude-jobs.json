@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-06T07:41:46.861092+00:00",
-  "totalJobs": 102,
+  "lastUpdated": "2026-09-07T08:00:28.372377+00:00",
+  "totalJobs": 100,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -362,27 +362,6 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
-      "id": "anth-5390894008",
-      "company": "Anthropic",
-      "position": "Manager Applied AI Architecture, Financial Services",
-      "location": "New York City, NY; San Francisco, CA | New York City, NY",
-      "remote": false,
-      "salary": "",
-      "description": "As manager of the Financial Services Solutions Architect team within Applied AI at Anthropic, you will drive the adoption of frontier AI in partnership with the rest of the go to market organization. We work with customers that include companies across banking, insurance, asset management, and...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5390894008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5390894008",
-      "postedAt": "2026-08-20T21:55:46-04:00",
-      "tags": [
-        "Rust",
-        "Go",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
       "id": "anth-5390890008",
       "company": "Anthropic",
       "position": "Manager Applied AI Architecture, Healthcare & Life Sciences",
@@ -713,27 +692,6 @@
         "Cursor"
       ],
       "companyIcon": ""
-    },
-    {
-      "id": "anth-5342935008",
-      "company": "Anthropic",
-      "position": "Staff+ Software Engineer, Safeguards Human Review Tooling",
-      "location": "San Francisco, CA",
-      "remote": false,
-      "salary": "",
-      "description": "The Safeguards team is responsible for ensuring our models and products are developed and deployed safely. We're looking for engineers for our Review Tooling team, which builds the systems that humans — and increasingly Claude — use to investigate potential harms and take enforcement actions across...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5342935008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5342935008",
-      "postedAt": "2026-07-13T12:57:38-04:00",
-      "tags": [
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Rails",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
       "id": "anth-5311465008",
